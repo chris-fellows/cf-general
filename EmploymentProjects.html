@@ -7,12 +7,7 @@
 
 		a, a:visited, a:hover, a:active {
 			  color: inherit;
-		}
-
-		.headersection {
-			text-align: center;
-			margin: auto;
-		}
+		}		
 
 		.maintitle {
 			text-align: center;
@@ -20,6 +15,16 @@
 			color: blue;
 			margin: auto;
 		}	
+		
+		.headersection {
+			text-align: left;
+			margin: auto;
+			width: 50%;	
+		}
+		
+		.headersection p {
+			margin: 10px;
+		}
 
 		.projectsection {
 			margin-bottom: 25px;
@@ -75,18 +80,34 @@
 			text-align: center;				
 			padding: 2px;
 			margin:3px;
-			border-radius: 5px;
+			border-radius: 5px;					
 		}
 
 		</style>
 	</head>
 	<body>
 	<h1 class="maintitle">Employment Projects</h1>
-		<div class="headersection">			
-			<p><span class="projecttag">New Project</span> : I worked on the project from the start or within months of the start.</p>
-			<p><span class="projecttag">AWS Cloud</span> : AWS cloud project.</p>
-			<p><span class="projecttag">Azure Cloud</span> : Azure cloud project.</p>
-			<p><span class="projecttag">1&1 Cloud</span> : 1&1 cloud project.</p>
+		<div class="headersection">	
+			<table>
+				<tbody>
+					<tr>
+						<td><span class="projecttag">New Project</span></td>
+						<td>Worked on the project from the start or within months of the start.</td>
+					</tr>
+					<tr>
+						<td><span class="projecttag">AWS Cloud</span></td>
+						<td>AWS cloud project.</td>
+					</tr>
+					<tr>
+						<td><span class="projecttag">Azure Cloud</span></td>
+						<td>Azure cloud project.</td>
+					</tr>
+					<tr>
+						<td><span class="projecttag">1&1 Cloud</span></td>
+						<td>1&1 cloud project.</td>
+					</tr>
+				</tbody>
+			</table>			
 		</div>
 
 		<div class="employersection">
@@ -353,7 +374,7 @@
 			<p>When Optical Mark Systems Ltd was acquired then I was promoted to Technical Architect because I had a lot of technical knowledge across all products.</p>
 
 			<div class="projectsection">
-				<p class="projecttitle">Ladbrokes BS2000 Shop System project (Shop System For Ladbrokes)</p>
+				<p class="projecttitle">BS2000 Shop System project (Shop System For Ladbrokes)</p>
 				<p><span class="projectsubtitle">Overview: </span>The shop system used by Ladbrokes. The system is a hybrid where bet data is in DBase files and all other data is in SQL Server and some components use CA Clipper. This is because the original system used CA Clipper for all components. Now only the ones relating to bet data are used. The eventual plan is to gradually migrate to the target system. There are a lot of shared VB6 & C++ components.</p>
 				<p>The system also communicates with head office for various functions. The company was contracted to develop all of the software for Ladbrokes with minor involvement from other companies.</p>			
 				<p>The project had a large amount of new development work because it was gradually migrating towards the target project.</p>
@@ -363,7 +384,7 @@
 			</div>
 			
 			<div class="projectsection">
-				<p class="projecttitle">Ladbrokes BS2000 Shop System Target project (Future Shop System For Ladbrokes)<span class="projecttag">New Project</span></p>
+				<p class="projecttitle">BS2000 Shop System Target project (Future Shop System For Ladbrokes)<span class="projecttag">New Project</span></p>
 				<p><span class="projectsubtitle">Overview: </span>The shop system that Ladbrokes plan to eventually use. All data will be in SQL Server and all components will be VB6 or C++. There will be no CA Clipper components or DBase files.</p>
 				<p>The system is designed to be highly configurable.</p>
 				<p><span class="projectsubtitle">Used by: </span>Ladbrokes testing staff.</p>
@@ -389,7 +410,7 @@
 			</div>
 			
 			<div class="projectsection">
-				<p class="projecttitle">Coral Telebet Telephone Betting System project (Account Betting For Coral)<span class="projecttag">New Project</span></p>
+				<p class="projecttitle">Telebet Telephone Betting System project (Account Betting For Coral)</p>
 				<p><span class="projectsubtitle">Overview: </span>The telephone betting system used by Coral. Customers have their own account and can phone the call centre and place bets.</p>
 				<p><span class="projectsubtitle">Used by: </span>Coral.</p>
 				<p><span class="projectsubtitle">Components: </span>Bet capture application (VB6), bet settlement server application (VB6), debit server application (Handles requests to authorise credit card payments), 50+ data management applications, account invoicing applications, reporting applications & liability risk system.</p>
@@ -397,7 +418,7 @@
 			</div>
 
 			<div class="projectsection">
-				<p class="projecttitle">Risk System project (Management Of Risk Liabilities)</p>
+				<p class="projecttitle">Risk System project (Liability Risk Management)</p>
 				<p><span class="projectsubtitle">Overview: </span>System is used at head office to manage the risk liabilities for potential sporting outcomes. E.g., If horse X wins the race then the liabilities will be £10k. It is used to set the betting odds. Bets (from shops or call centre) & event data are sent to a server application (TCP) and a UI displays potential liabilities.</p>
 				<p><span class="projectsubtitle">Overview: </span>Ladbrokes, Coral or independent bookmakers.</p>
 				<p><span class="projectsubtitle">Components: </span>UI (VB6) for displaying liabilities, liability server application (C++) that manages the liabilities (Receives bets & event data), server applications (VB6) for sending bets & event data to the liability server.</p>
