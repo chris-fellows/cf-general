@@ -130,12 +130,14 @@
 			See <a target="_blank" href="https://www.linkedin.com/in/chris-fellows-a6067a3/">LinkedIn Recommendations</a> section for recommendation from Bob Lamb (Company owner). I worked for him at RWEL Ltd & Imagine Communications.
 
 			<div class="projectsection">
-				<p class="projecttitle">RAP project (Non-Skippable Adverts For Whole Swiss TV Industry)<span class="projecttag">New Project</span><span class="projecttag">AWS Cloud</span></p>
+				<p class="projecttitle">Replay Ads project (Non-Skippable Adverts For On-demand TV)<span class="projecttag">New Project</span><span class="projecttag">AWS Cloud</span></p>
 				<p><span class="projectsubtitle">Overview: </span>AWS system for introducing non-skippable adverts in to the whole Swiss TV industry for on-demand TV. It came about due to a change in broadcasting legislation because consumers were previously able to skip ads which loses ad revenue.</p>
 				<p>RWEL Ltd was contracted to create the shared APIs & backend used throughout the industry and by consumer devices. An ad sales house will book a campaign and the system ultimately tries to ensure that the target impressions for the ad campaign is delivered. The system specification was quite vague and needed a lot of discussions, especially because there are so many clients. RWEL Ltd did all of the AWS development.</p>	
-				<p>The APIs handle 22m requests per day.</p>
+				<p>The APIs handle 22m requests per day and must be able to serve the ad list in under 0.1 secs.</p>
 
-				<p><span class="projectsubtitle">Used by: </span>Whole Swiss TV industry (operators, broadcasters, ad sales, audience measurement) & any consumer device capable of playing on-demand TV (STB, browser, mobile application). Companies will use the APIs to upload their data (Ad campaigns, channels, available impressions, media, EPGs etc) or try to book a campaign (if sufficient impressions available) or read data (E.g., Campaign progress or reports etc). Consumer devices will use the API to request an ad list to play out and to send playout progress events so that the system can count an impression/contact.</p>
+				<p><span class="projectsubtitle">Used by: </span>Whole Swiss TV industry (operators, broadcasters, ad sales, audience measurement) & any consumer device capable of playing on-demand or time shifted TV (STB, browser, mobile application).</p>
+				<p>Companies will use the APIs to upload their data (Ad campaigns, channels, available impressions, media, EPGs etc) or try to book a campaign (if sufficient impressions available) or read data (E.g., Campaign progress or reports etc).</p>
+				<p>Consumer devices will use the API to request an ad list to play out and to send playout progress events so that the system can count an impression/contact.</p>
 				<p><span class="projectsubtitle">Components: </span>REST & SOAP APIs (ASP.NET Core Web API) for consumer devices (Request ads, notify playout events etc), APIs for managing data (Create campaigns, managing static data, manage impression inventory, APIs for reporting, APIs for monitoring information (E.g., Health checks), monitoring background tasks (E.g., Send emails, create Jiras for issues, send Datadog metrics, send MS Teams notifications), general background tasks (E.g., Campaign managment & planning, data caching, import EPGs, archiving etc), RavenDB database, Redis database & Confluence documents (Technical information, "How To" guides, troubleshooting guides etc)</p>
 				<p><span class="projectsubtitle">My role: </span>I led the backend development (Team of 3). I did a lot of design work. I was responsible for getting the clients to agree on the detailed design for many of the component components due to the system specification being high level & vague. It was a very small team and I also did a lot of development work.</p>
 				Notes:
@@ -278,8 +280,8 @@
 			</div>
 
 			<div class="projectsection">
-				<p class="projecttitle">MultiView predecessor project (BI Tool For Analysing Mediacal Datasets / Desktop Application)</p>
-				<p><span class="projectsubtitle">Overview: </span>Old system for analysing OLAP cubes. The system is very old and has not been updated for a decade.</p>
+				<p class="projecttitle">MultiView Predecessor project (Old BI Tool For Analysing Medical Datasets)</p>
+				<p><span class="projectsubtitle">Overview: </span>Old system for analysing OLAP cubes. The system is a desktop application that is outdated and has not been updated for a decade.</p>
 				<p><span class="projectsubtitle">Used by: </span>European branches of most top 50 pharma companies.</p>
 				<p><span class="projectsubtitle">Components: </span>UI for analysing data (Delphi).</p>
 				<p><span class="projectsubtitle">My role: </span>Typically investigating bugs.</p>
@@ -389,7 +391,7 @@
 				<p>The system is designed to be highly configurable.</p>
 				<p><span class="projectsubtitle">Used by: </span>Ladbrokes testing staff.</p>
 				<p><span class="projectsubtitle">Components: </span>Till application (VB6, C++), document scanner, receipt printer, SQL Server database, shop server applications (Bet settlement, communication with head office etc), head office till application (Large bet authorisation, audit events, reporting etc), head office liability risk system & head office server applications (Placing shop bets against telephone betting account, recovery of missed data feed messages, management of large bet authorisation etc.)</p>
-				<p><span class="projectsubtitle">My role: </span>I did a lot of development work on the project. I was given sole responsibility for the new C++ components.</p>
+				<p><span class="projectsubtitle">My role: </span>I did a lot of development work on the project. I was given responsibility for the new C++ components after the original developer left.</p>
 			</div>
 			
 			<div class="projectsection">
