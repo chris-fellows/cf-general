@@ -8,7 +8,7 @@
 		a, a:visited, a:hover, a:active {
 			  color: inherit;
 		}		
-
+			
 		.maintitle {
 			text-align: center;
 			width: 50%;
@@ -55,7 +55,7 @@
 		.jobtitle {
 			color: grey;
 			text-align: center;
-			margin: 10px;
+			margin: 10px;			
 		}
 
 		.employersection {
@@ -74,15 +74,14 @@
 		
 		.projecttag {
 			color: black;
-			font-size: 12px;				
-			font-weight: bold;			
+			font-size: 11px;
+			font-weight: bold;
 			background-color: orange;
-			text-align: center;				
-			padding: 2px;
+			text-align: center;
+			padding: 3px;
 			margin:3px;
-			border-radius: 5px;					
-		}
-
+			border-radius: 5px;
+		}		
 		</style>
 	</head>
 	<body>
@@ -93,6 +92,10 @@
 					<tr>
 						<td><span class="projecttag">New Project</span></td>
 						<td>Worked on the project from the start or within months of the start.</td>
+					</tr>
+					<tr>
+						<td><span class="projecttag">Lead Dev</span></td>
+						<td>Lead Developer on project (Leading a team or doing all development).</td>
 					</tr>
 					<tr>
 						<td><span class="projecttag">AWS Cloud</span></td>
@@ -106,6 +109,10 @@
 						<td><span class="projecttag">1&1 Cloud</span></td>
 						<td>1&1 cloud project.</td>
 					</tr>
+					<tr>
+						<td><span class="projecttag">SaaS</span></td>
+						<td>Software as a Service project.</td>
+					</tr>					
 				</tbody>
 			</table>			
 		</div>
@@ -115,7 +122,7 @@
 			<h3 class="jobtitle">Software Developer (Contract) - May 2023 - Sep 2023</h3>
 
 			<div class="projectsection">
-				<p class="projecttitle">Compliance Portal project (Manage & Apply Data Retention Policies For M365 Accounts)<span class="projecttag">New Project</span><span class="projecttag">Azure Cloud</span></p>
+				<p class="projecttitle">Compliance Portal project (Manage & Apply Retention Policies For M365 Data)<span class="projecttag">New Project</span><span class="projecttag">Azure Cloud</span><span class="projecttag">SaaS</span><span class="projecttag">Lead Dev</span></p>				
 				<p><span class="projectsubtitle">Overview: </span>Azure project for configuring & applying data retention policies for data for 85k Microsoft 365 user accounts. It includes OneDrive files & emails. It enables Coca-Cola to have custom control over their cloud storage and good visibility over usage.</p>
 				<p><span class="projectsubtitle">Used by: </span>Coca-Cola Europacific Partners.</p>
 				<p><span class="projectsubtitle">Components: </span>Web application (ASP.NET Core Razor, C#) for configuring data retention policies & reporting & viewing task progress & manually launching task to apply polices, SQL Server database, Power BI dashboards (Visible via web application), background tasks for applying policies, background tasks for gettinge email statistics, miscellanous background tasks (Archiving, data caching etc), health checks for checking the health of the system & Sharepoint documents (Technical information, "How To" guides, troubleshooting guides etc)</p>
@@ -129,8 +136,8 @@
 
 			See <a target="_blank" href="https://www.linkedin.com/in/chris-fellows-a6067a3/">LinkedIn Recommendations</a> section for recommendation from Bob Lamb (Company owner). I worked for him at RWEL Ltd & Imagine Communications.
 
-			<div class="projectsection">
-				<p class="projecttitle">Replay Ads project (Non-Skippable Adverts For On-demand TV)<span class="projecttag">New Project</span><span class="projecttag">AWS Cloud</span></p>
+			<div class="projectsection">				
+				<p class="projecttitle">Replay Ads project (Non-Skippable Adverts For On-demand TV)<span class="projecttag">New Project</span><span class="projecttag">AWS Cloud</span><span class="projecttag">SaaS</span><span class="projecttag">Lead Dev</span></p>
 				<p><span class="projectsubtitle">Overview: </span>AWS system for introducing non-skippable adverts in to the whole Swiss TV industry for on-demand TV. It came about due to a change in broadcasting legislation because consumers were previously able to skip ads which loses ad revenue.</p>
 				<p>RWEL Ltd was contracted to create the shared APIs & backend used throughout the industry and by consumer devices. An ad sales house will book a campaign and the system ultimately tries to ensure that the target impressions for the ad campaign is delivered. The system specification was quite vague and needed a lot of discussions, especially because there are so many clients. RWEL Ltd did all of the AWS development.</p>	
 				<p>The APIs handle 22m requests per day and must be able to serve the ad list in under 0.1 secs.</p>
@@ -161,7 +168,7 @@
 		work was all done my myself. I also did a lot of work on improving software quality.</p>
 
 			<div class="projectsection">
-				<p class="projecttitle">ActisCRM project (CRM For Medical Sales)<span class="projecttag">1&1 Cloud</span></p>
+				<p class="projecttitle">ActisCRM project (CRM For Medical Sales)<span class="projecttag">1&1 Cloud</span><span class="projecttag">SaaS</span></p>
 				<p><span class="projectsubtitle">Overview: </span>1&1 cloud CRM for medical sales. It is the main product. It is used by medical companies to promote their product to potential customers via healthcare professionals. It includes organising & tracking meetings & feedback, remote engagement, campaign management, ordering of product samples & keeping the healthcare professional database up to date.</p>
 				<p>The system is highlighly configurable and so testing must be done for each individual client.</p>
 				<p><span class="projectsubtitle">Used by: </span>Medical sales companies.</p>
@@ -174,7 +181,7 @@
 				</div>
 
 			<div class="projectsection">
-				<p class="projecttitle">AccountScience project (Sales Planning)<span class="projecttag">1&1 Cloud</span></p>
+				<p class="projecttitle">AccountScience project (Sales Planning)<span class="projecttag">1&1 Cloud</span><span class="projecttag">SaaS</span></p>
 				<p><span class="projectsubtitle">Overview: </span>Assists with sales planning.</p>
 				<p><span class="projectsubtitle">Used by: </span>Medical sales companies.</p>
 				<p><span class="projectsubtitle">Components: </span>Web application, SQL Server database.</p>
@@ -182,7 +189,7 @@
 			</div>
 
 			<div class="projectsection">
-				<p class="projecttitle">(PAT) Project Automation Tool project (Automation Tool)</p>
+				<p class="projecttitle">Project Automation Tool (PAT) project (Automation Tool)</p>
 				<p><span class="projectsubtitle">Overview: </span>Performs automation for a library of projects, each of which contain a configurable set of steps. A step can include running a script (PowerShell, SQL etc), file management functions (E.g., Copy folder), executing an SSIS package etc. There are projects for doing software builds, creating an incremental update, running automated testing, upgrading a client installation, running an SSIS package, running a client health check etc.</p>
 				<p><span class="projectsubtitle">Used by: </span>Internal users.</p>
 				<p><span class="projectsubtitle">Components: </span>UI (C#) for configuring & running projects, SQL Server database, library of PowerShell scripts (E.g., Build ActisCRM release), SQL scripts.</p>
@@ -190,13 +197,13 @@
 			</div>
 
 			<div class="projectsection">
-				<p class="projecttitle">Git Migration project (Migrate Visual Sourcesafe To Git)<span class="projecttag">New Project</span></p>
+				<p class="projecttitle">Git Migration project (Migrate SourceSafe To Git)<span class="projecttag">New Project</span><span class="projecttag">Lead Dev</span></p>
 				<p><span class="projectsubtitle">Overview: </span>Project to migrate all code & database scripts (Visual SourceSafe) to 30 Git repositories and create NuGet packages for some components.</p>
 				<p><span class="projectsubtitle">My role: </span>I did all of the planning and migration. I devised the Git branching strategy and trained the other developers.</p>
 			</div>
 
 			<div class="projectsection">
-				<p class="projecttitle">Automated Testing project (Automates User Testing)<span class="projecttag">New Project</span></p>
+				<p class="projecttitle">Automated Testing project (Automates User Testing)<span class="projecttag">New Project</span><span class="projecttag">Lead Dev</span></p>
 				<p><span class="projectsubtitle">Overview: </span>System executes automated browser tests using Selenium. It replicates what a user would do by navagating screens, clicking buttons, entering text in fields etc. The purpose is to reduce the amount of time that QA users spend testing new releases. For each ActisCRM release then it previously took 1 day per client.</p>
 				<p>Each test will be executed for specific languages (E.g., English, German etc), CRM users (E.g., Manager, ordinary user etc) and web browser versions (E.g., Version 50 of Chrome, version 40 of Safari). The test can also be run against real or virtual devices via BrowserStack (E.g., Specific iPad model running a specific version of iOS).</p>
 				<p>The output of each test includes status messages, screenshots and files downloaded.</p>
@@ -209,7 +216,7 @@
 			</div>
 
 			<div class="projectsection">
-				<p class="projecttitle">Automated Build project (Build ActisCRM Code & Model Database)<span class="projecttag">New Project</span></p>
+				<p class="projecttitle">Automated Build project (Build ActisCRM Code & Model Database)<span class="projecttag">New Project</span><span class="projecttag">Lead Dev</span></p>
 				<p><span class="projectsubtitle">Overview: </span>System automatically builds the ActisCRM web application & model database. The system can create a new build package or it can create an incremental package that only contains files that have changed. When I joined the company then the build took almost 1 day because there are so many manual steps. The build is typically launched from the PAT application.</p>
 				<p><span class="projectsubtitle">Components: </span>PowerShell script for building a new release or an incremental update and PAT projects for running the scripts.</p>
 				<p><span class="projectsubtitle">Used by: </span>Internal users.</p>
@@ -217,7 +224,7 @@
 			</div>
 
 			<div class="projectsection">
-				<p class="projecttitle">Monitoring project (Monitors Internal Systems & Client Environments)<span class="projecttag">New Project</span></p>
+				<p class="projecttitle">Monitoring project (Monitors Internal Systems & Client Environments)<span class="projecttag">New Project</span><span class="projecttag">Lead Dev</span></p>
 				<p><span class="projectsubtitle">Overview: </span>Monitor internal systems & client environments for issues & then take a configured action (E.g., Send email, create MS Teams 
 		notification, run SQL script, call HTTP endpoint, run a particular executable etc). E.g., Send an email if a web application login page is not available or if a SQL query returns anomaly records. The system detects issues automatically and ensures that someone is notified instead of relying on a user to detect it.</p>
 				<p>The system can monitor machine availability (Ping), machine time (NTP check), database server connectivity, database query results (E.g., Query checks for anomaly records in a particular table), HTTP connectivity (E.g., ActisCRM login page is available and returns 200 status), text files (E.g., Application log file 20250523.log contains "FATAL ERROR"), custom process (E.g., Returns a particular exit code), windows services (E.g., Service is running) & TCP or UDP endpoints (E.g., Returns particular response if a request is sent to it).</p>
@@ -235,7 +242,7 @@
 			See <a target="_blank" href="https://www.linkedin.com/in/chris-fellows-a6067a3/">LinkedIn Recommendations</a> section for recommendations Bomb Lamb (VP Engineering) & Chris Rawson (Project Manager). I worked for Bob at RWEL Ltd & Imagine Communications.
 
 			<div class="projectsection">
-				<p class="projecttitle">xG Gameplan project (Optimise Adverts Within Programme Breaks)<span class="projecttag">New Project</span><span class="projecttag">AWS Cloud</span></p>
+				<p class="projecttitle">xG Gameplan project (Optimise Adverts Within Programme Breaks)<span class="projecttag">New Project</span><span class="projecttag">AWS Cloud</span><span class="projecttag">SaaS</span></p>
 				<p><span class="projectsubtitle">Overview: </span>Project for optimising adverts within programme breaks.</p>
 				<p>The company uploads EPGs and programme breaks and then instructs the system to position the adverts within the programme breaks using complex business rules. The system creates an EC2 instance and runs the optimisation.</p>
 
@@ -253,7 +260,7 @@
 			</div>
 
 			<div class="projectsection">
-				<p class="projecttitle">xG Schedule project (Planning TV Programmes)<span class="projecttag">New Project</span><span class="projecttag">Azure Cloud</span></p>
+				<p class="projecttitle">xG Schedule project (Planning TV Programmes)<span class="projecttag">New Project</span><span class="projecttag">Azure Cloud</span><span class="projecttag">SaaS</span></p>
 				<p><span class="projectsubtitle">Overview: </span>Project for planning TV programmes and managing all of the content.</p>
 				<p><span class="projectsubtitle">Used by: </span>Sony UK.</p>
 				<p><span class="projectsubtitle">Components: </span>REST APIs (ASP.NET Core Web API) for managing the data, a RavenDB database & UI (Angular).</p>
@@ -272,7 +279,7 @@
 			<h3 class="jobtitle">Senior Software Engineer (Permanent) - Feb 2011 - Jul 2016</h3>
 
 			<div class="projectsection">
-				<p class="projecttitle">MultiView project (Cloud BI Tool For Analysing Medical Datasets)<span class="projecttag">New Project</span><span class="projecttag">1&1 Cloud</span></p>
+				<p class="projecttitle">MultiView project (Cloud BI Tool For Analysing Medical Datasets)<span class="projecttag">New Project</span><span class="projecttag">1&1 Cloud</span><span class="projecttag">SaaS</span></p>
 				<p><span class="projectsubtitle">Overview: </span>Project for companies to be able to analyse medical datasets from the data warehouse (E.g., Promotional data, hospital outpatient data, pharmacy sales, NHS data etc) in OLAP cube format. Data can exported to CSVs, Excel charts & PowerPoint presentations. The system is a complete replacement for the predecessor which was outdated.</p>
 				<p><span class="projectsubtitle">Used by: </span>European branches of most top 50 pharma companies.</p>
 				<p><span class="projectsubtitle">Components: </span>UI (WPF) for analysing data, cloud backend (WCF), data warehouse (SQL Server), UI for designing cubes, application for creating cubes, UI for managing cloud data and running tasks etc.</p>
@@ -288,7 +295,7 @@
 			</div>
 
 			<div class="projectsection">
-				<p class="projecttitle">HMSL project (Capture Hospital Outpatient Data For Data Warehouse)</p>
+				<p class="projecttitle">HMSL project (Capture Hospital Outpatient Data For Data Warehouse)<span class="projecttag">Lead Dev</span></p>
 				<p><span class="projectsubtitle">Overview: </span>System is used by the Fieldwork team for capturing data entered by healthcare professionals at hospital outpatient centres (E.g., Consultants) on to paper surveys. The data is then validated & imported in to the data warehouse.<p>
 				<p><span class="projectsubtitle">Used by: </span>Internal users.</p>
 				<p><span class="projectsubtitle">Components: </span>Web application for capturing survey data from paper surveys and a UI for importing the data in to the data warehouse & configuring the import.</p>
@@ -304,7 +311,7 @@
 			</div>
 
 			<div class="projectsection">
-				<p class="projecttitle">OLEDB Database Query Tool project (Exports Data To Various File Formats)<span class="projecttag">New Project</span></p>
+				<p class="projecttitle">OLEDB Database Query Tool project (Exports Data To Various File Formats)<span class="projecttag">New Project</span><span class="projecttag">Lead Dev</span></p>
 				<p><span class="projectsubtitle">Overview: </span>System is used by Client Services team for exporting data from the data warehouse to CSV, Excel, HTML, XML or OLAP cubes in response to ad hoc data requests from clients. Previously it would require a developer to do the work because there would be different filter criteria each time. Now a developer can create a SQL query for a new dataset and define a list of available filters that are available (E.g., Date range or therapy area list) and just copy the files to a network folder and they are now available for use.</p>				
 				<p><span class="projectsubtitle">Used by: </span>Internal users.</p>
 				<p><span class="projectsubtitle">Components: </span>UI (C#) to export the data from the data warehouse, a library of SQL queries to provide the data and configuration data which lists the available filters. The SQL query comments indicate which filters that are visible in the UI. E.g., List of therapy areas or date range etc.</p>
@@ -346,7 +353,7 @@
 			</div>
 
 			<div class="projectsection">
-				<p class="projecttitle">Call Centre Agent Replacement Prototype project (Replacement For Call Centre Agent Application)<span class="projecttag">New Project</span></p>
+				<p class="projecttitle">Call Centre Agent Replacement Prototype project (Replacement For Call Centre Agent Application)<span class="projecttag">New Project</span><span class="projecttag">Lead Dev</span></p>
 				<p><span class="projectsubtitle">Overview: </span>A web application prototype for replacing the VB6 application at the call centre.</p>
 				<p>The purpose was to drive discussion with the users about how a new system should work (E.g., The VB6 application did not have standard scripts to help call flows and it just had lots of menus) and demonstrate which web pages were already available. The prototype included standard scripts for the call flow, handling incoming caller information, reports, purchasing packages for the patient etc.</p>
 
@@ -395,7 +402,7 @@
 			</div>
 			
 			<div class="projectsection">
-				<p class="projecttitle">eBet Shop System project (Shop System For Independent Bookmakers)<span class="projecttag">New Project</span></p>
+				<p class="projecttitle">eBet Shop System project (Shop System For Independent Bookmakers)<span class="projecttag">New Project</span><span class="projecttag">Lead Dev</span></p>
 				<p><span class="projectsubtitle">Overview: </span>The shop system used by independent bookmakers.</p>
 				<p><span class="projectsubtitle">Used by: </span>Independent bookmakers. E.g., Chisholms.</p>	
 				<p><span class="projectsubtitle">Components: </span>Till application (VB6, Windows XP Embedded), document scanner, receipt printer, SQL Server database, shop server applications (Bet settlement, communication with head office etc), head office till application (Large bet authorisation, audit events, reporting etc), head office liability risk system & head office server applications (Management of large bets etc).</p>
